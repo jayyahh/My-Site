@@ -7,20 +7,40 @@
 }
 
 body {
-    border: 1px #ccc solid;
     position: relative;
     min-height: 100vh;
     background: #000A24;
 }
 
-h1 {
+.title {
     position: absolute;
     top: 35%;
-    left: 30%;
+    left: 28%;
     font-size: 3em;
     font-weight: 700;
     color: #fff;
     letter-spacing: 3px;
+}
+
+.introduction {
+    position: absolute;
+    top: 47%;
+    left:28%;
+    right:35%;
+    font-size: 1.01em;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+img {
+    position: absolute;
+    top: 35%;
+    right: 2%;
+    width: 30%;
+    height: auto;
+    border-radius: 2%;
+    opacity: 1;
 }
 
 .txt {

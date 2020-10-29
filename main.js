@@ -52,3 +52,7 @@ function init() {
 
     new TypeWriter(txtElement, words, wait);
 }
+
+function showStats() {
+    
+}
