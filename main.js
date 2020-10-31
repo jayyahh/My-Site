@@ -54,5 +54,13 @@ function init() {
 }
 
 function showStats() {
-    
+    if (!document.querySelector(".aboutBar").classList.contains("aboutBar--open")){
+        document.querySelector(".aboutBar").classList.toggle("aboutBar--open");
+    }
+}
+
+function closeStats() {
+    if (document.querySelector(".aboutBar").classList.contains("aboutBar--open")){
+        document.querySelector(".aboutBar").classList.toggle("aboutBar--open");
+    }
 }
