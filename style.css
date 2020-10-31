@@ -42,12 +42,12 @@ body {
 .aboutBarClose .material-icons {
     font-size: 1.5em;
     color: #fff;
-    transition: color 0.1s;
+    transition: color 0.2;
 }
 
 .aboutBarClose .material-icons:hover {
-    color: rgb(230, 230, 230);
-    transition: color 0.1s;
+    color: rgb(209, 209, 209);
+    transition: color 0.2s;
 }
 
 .aboutBarItem {
