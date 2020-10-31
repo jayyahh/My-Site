@@ -1,63 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Jerry Chu</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-    <body>
-        <div class="aboutBar">
-            <a onclick="closeStats()" class="aboutBarClose">
-                <span class="material-icons">close</span>
-            </a>
-            <div class="stats">
-                <div class="aboutBarItem">
-                    <span class="material-icons">school</span>Studied for 16 years
-                </div>
-                <div class="aboutBarItem">
-                    <span class="material-icons">laptop_mac</span>Worked at 3 companies
-                </div>
-                <div class="aboutBarItem">
-                    <span class="material-icons">code</span>Coded for 1200 hours
-                </div>
-                <div class="aboutBarItem">
-                    <span class="material-icons">language</span>Speak 3 different languages
-                </div>
-                <div class="aboutBarItem">
-                    <span class="material-icons">airplanemode_active</span>Travelled to 12 countries
-                </div>
-                <div class="aboutBarItem">
-                    <span class="material-icons">sports_bar</span>Drank 400 mugs of beer
-                </div>
-                <div class="aboutBarItem">
-                    <span class="material-icons">6_ft_apart</span>Kept 6ft apart
-                </div>
+
+<head>
+    <title>Jerry Chu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+</head>
+
+<body>
+    <div class="aboutBar">
+        <a onclick="closeStats()" class="aboutBarClose">
+            <span class="material-icons">close</span>
+        </a>
+        <div class="stats">
+            <div class="aboutBarItem">
+                <span class="material-icons">school</span>Studied for 16 years
+            </div>
+            <div class="aboutBarItem">
+                <span class="material-icons">laptop_mac</span>Worked at 3 companies
+            </div>
+            <div class="aboutBarItem">
+                <span class="material-icons">code</span>Coded for 1200 hours
+            </div>
+            <div class="aboutBarItem">
+                <span class="material-icons">language</span>Speak 3 different languages
+            </div>
+            <div class="aboutBarItem">
+                <span class="material-icons">airplanemode_active</span>Travelled to 12 countries
+            </div>
+            <div class="aboutBarItem">
+                <span class="material-icons">sports_bar</span>Drank 400 mugs of beer
+            </div>
+            <div class="aboutBarItem">
+                <span class="material-icons">6_ft_apart</span>Kept 6ft apart
             </div>
         </div>
-        <div class="title">
-            <div class="typewriter">
-                It's Jerry, a
-                <span class="txt-type" data-wait="2000" data-words='["Developer", "Designer", "Thinker"]'></span>
-            </div>
-            <div class="introduction">
-                    My name is Jerry Chu, an aspiring software engineer with a Bachelor's degree in computer science from The University of British Columbia in Vancouver, Canada. 
-                    I am well-suited with the concept and application of object-oriented programming and I am proficient in a variety of programming languages with a focus on Java, C#, and JavaScript. 
-                    Having worked as a software engineer intern at 3 different companies including Electronic Arts, I possess the technical skills and agile development experience necessary to succeed
-                    as a crucial team player who can deliver prominently and collaborate effectively.
-            </div>
+    </div>
+    <div class="title">
+        <div class="typewriter">
+            It's Jerry, a
+            <span class="txt-type" data-wait="2000" data-words='["Developer", "Designer", "Thinker"]'></span>
         </div>
-        <div class="bungeeImage">
-            <img src="fish.png">
+        <div class="introduction">
+            My name is Jerry Chu, an aspiring software engineer with a Bachelor's degree in computer science from The
+            University of British Columbia in Vancouver, Canada.
+            I am well-suited with the concept and application of object-oriented programming and I am proficient in a
+            variety of programming languages with a focus on Java, C#, and JavaScript.
+            Having worked as a software engineer intern at 3 different companies including Electronic Arts, I possess
+            the technical skills and agile development experience necessary to succeed
+            as a crucial team player who can deliver prominently and collaborate effectively.
         </div>
-        <div class="options">
-            <ul>
-                <li data-text="About"><a onclick="showStats()">About</a></li>
-                <li data-text="Experience"><a target="_blank" href="https://drive.google.com/file/d/1kY__TILYO442x5rCa7e5j8kExqb6MU7z/view?usp=sharing">Experience</a></li>
-                <li data-text="Projects"><a target="_blank" href="https://github.com/jayyahh">Projects</a></li>
-                <li data-text="LinkedIn"><a target="_blank" href="https://www.linkedin.com/in/jerryc424/">LinkedIn</a></li>
-                <li data-text="Email"><a target="_blank" href="mailto:jerrychu424@gmail.com">Email</a></li>
-            </ul>
-        </div>
-        <script src="main.js"></script>
-    </body>
+    </div>
+    <div class="bungeeImage">
+        <img src="fish.png">
+    </div>
+    <div class="options">
+        <ul>
+            <li data-text="About"><a onclick="showStats()">About</a></li>
+            <li data-text="Experience"><a target="_blank"
+                    href="https://drive.google.com/file/d/1kY__TILYO442x5rCa7e5j8kExqb6MU7z/view?usp=sharing">Experience</a>
+            </li>
+            <li data-text="Projects"><a target="_blank" href="https://github.com/jayyahh">Projects</a></li>
+            <li data-text="LinkedIn"><a target="_blank" href="https://www.linkedin.com/in/jerryc424/">LinkedIn</a></li>
+            <li data-text="Email"><a target="_blank" href="mailto:jerrychu424@gmail.com">Email</a></li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+
 </html>
