@@ -58,23 +58,31 @@ body {
     padding-left: 10%;
     text-decoration: none;
     white-space: nowrap;
-    font-weight: 550;
+    font-weight: 500;
     font-size: 1.2vw;
 }
 
 .aboutBarItem .material-icons {
     font-size: 1.5em;
-    margin-right: 6%;
+    margin-right: 4%;
 }
 
 .stats {
-    margin-top: 15%;
+    margin-top:7%;
+}
+
+.closePanel {
+    position: fixed;
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 100%;
 }
 
 .title {
     position: absolute;
-    top: 35%;
-    left: 28%;
+    top: 29%;
+    left: 27%;
     width: 37%;
     height: auto;
     font-size: 3vw;
@@ -92,19 +100,18 @@ body {
     text-align: justify;
     word-break: keep-all;
     padding-top: 5%;
-    font-size: 0.9vw;
+    font-size: 1vw;
     font-weight: 200;
     color: #fff;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
 }
 
 img {
     position: absolute;
-    top: 36%;
-    right: 12%;
-    width: 19%;
+    top: 29%;
+    right: 10%;
+    width: 22%;
     height: auto;
-    border-radius: 2%;
 }
 
 .txt {
@@ -113,10 +120,10 @@ img {
 
 ul {
     position: absolute;
-    top: 36%;
-    left: 12%;
-    width: 12%;
-    height: auto;
+    top: 30%;
+    left: 10%;
+    width: 13%;
+    height: 20%;
 }
 
 ul li {
@@ -126,13 +133,13 @@ ul li {
 ul li:before {
     content: attr(data-text);
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
     color: #fff;
-    font-size: 5vw;
-    font-weight: 700;
+    font-size: 5.5vw;
+    font-weight: 800;
     opacity: 0;
     letter-spacing: 15px;
     transition: 0.3s;
@@ -148,15 +155,15 @@ ul li a {
     display: inline-block;
     width: 100%;
     height: 100%;
-    padding: 6% 0%;
-    margin-bottom: 5%;
+    padding: 8% 0%;
+    margin-bottom: 1.5%;
     text-decoration: none;
     background: #f89a1a;
     color: #000;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1vw;
-    font-weight: 700;
+    font-size: 1.2vw;
+    font-weight: 800;
     letter-spacing: 2px;
     overflow: hidden;
     transition: 0.3s;
