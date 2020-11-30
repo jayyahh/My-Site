@@ -54,13 +54,13 @@ function init() {
 }
 
 function showStats() {
-    if (!document.querySelector(".aboutBar").classList.contains("aboutBar--open")){
-        document.querySelector(".aboutBar").classList.toggle("aboutBar--open");
+    if (!document.querySelector(".statsBar").classList.contains("statsBar--open")){
+        document.querySelector(".statsBar").classList.toggle("statsBar--open");
     }
 }
 
 function closeStats() {
-    if (document.querySelector(".aboutBar").classList.contains("aboutBar--open")){
-        document.querySelector(".aboutBar").classList.toggle("aboutBar--open");
+    if (document.querySelector(".statsBar").classList.contains("statsBar--open")){
+        document.querySelector(".statsBar").classList.toggle("statsBar--open");
     }
 }
