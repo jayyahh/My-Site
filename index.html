@@ -3,7 +3,7 @@
 
 <head>
     <title>Jerry Chu</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -42,16 +42,23 @@
             </div>
         </div>
     </div>
-    <div class="closePanel" onclick="closeStats()">
-
-    </div>
+    <div class="closePanel" onclick="closeStats()"> </div>
+	<div class="options">
+		<ul>
+			<li data-text="Stats"><a onclick="showStats()">Stats</a></li>
+			<li data-text="Experience"><a href="./experience.html">Experience</a></li>
+			<li data-text="Projects"><a target="_blank" href="https://github.com/jayyahh">Projects</a></li>
+			<li data-text="LinkedIn"><a target="_blank" href="https://www.linkedin.com/in/jerryc424/">LinkedIn</a></li>
+			<li data-text="Email"><a target="_blank" href="mailto:jerrychu424@gmail.com">Email</a></li>
+		</ul>
+	</div>
     <div class="title">
         <div class="typewriter">
             It's Jerry, a
             <span class="txt-type" data-wait="2000" data-words='["Developer", "Designer", "Thinker"]'></span>
         </div>
         <div class="introduction">
-            My name is Jerry Chu, an aspiring software engineer with a Bachelor's degree in computer science from The
+            My name is Jerry Chu, a passionate software engineer with a Bachelor's degree in computer science from The
             University of British Columbia in Vancouver, Canada.
             I am well-suited with the concept and application of object-oriented programming and I am proficient in a
             variety of programming languages with a focus on Java, C#, and JavaScript.
@@ -62,16 +69,6 @@
     </div>
     <div class="myPic">
         <img src="fish.png" class="fishImage">
-    </div>
-    <div class="options">
-        <ul>
-            <li data-text="Stats"><a onclick="showStats()">Stats</a></li>
-            <li data-text="Experience"><a href="./experience.html">Experience</a>
-            </li>
-            <li data-text="Projects"><a target="_blank" href="https://github.com/jayyahh">Projects</a></li>
-            <li data-text="LinkedIn"><a target="_blank" href="https://www.linkedin.com/in/jerryc424/">LinkedIn</a></li>
-            <li data-text="Email"><a target="_blank" href="mailto:jerrychu424@gmail.com">Email</a></li>
-        </ul>
     </div>
     <script src="main.js"></script>
 </body>
