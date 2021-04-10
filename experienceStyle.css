@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	cursor: default;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	background: #052942;
+}
+
+.backButton {
+	position: relative;
+	margin: 2% 0% 0.5% 0.5%;
+}
+
+.backButton a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.backButton .material-icons:hover {
+	color: rgb(209, 209, 209);
+	transition: color 0.2s;
+}
+
+@media (orientation: landscape) {
+	.backButton .material-icons {
+		position: relative;
+		left: 2%;
+		font-size: 1.5vw;
+		transition: color 0.2;
+	}
+
+	.experience-cv-flex {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+
+	.experienceContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 50%;
+		height: auto;
+		color: #fff;
+		font-size: 1vw;
+	}
+
+	.experienceContainer img {
+		width: 45%;
+		height: auto;
+	}
+
+	.eaContainer {
+		padding: 2%;
+		margin-bottom: 3%;
+		background-color: rgba(0, 0, 0, 0.322);
+	}
+
+	.eaContainer img {
+		float: left;
+	}
+
+	.eaTimePlace {
+		font-size: 0.8vw;
+		font-weight: 300;
+		float: right;
+		width: 52%;
+		margin-bottom: 2%;
+		text-align: center;
+	}
+
+	.eaIntro {
+		float: right;
+		font-weight: 150;
+		font-size: 1vw;
+		width: 52%;
+		text-align: justify;
+	}
+
+	.mojioContainer {
+		padding: 2%;
+		margin-bottom: 3%;
+		background-color: rgba(83, 83, 83, 0.295);
+	}
+
+	.mojioTimePlace {
+		font-size: 0.8vw;
+		font-weight: 300;
+		float: left;
+		width: 52%;
+		margin-bottom: 2%;
+		text-align: center;
+	}
+
+	.mojioIntro {
+		float: left;
+		font-weight: 150;
+		font-size: 1vw;
+		width: 52%;
+		text-align: justify;
+	}
+
+	.mojioContainer img {
+		float: right;
+	}
+
+	.archiactContainer {
+		padding: 2%;
+		margin-bottom: 3%;
+		background-color: rgba(255, 255, 255, 0.123);
+	}
+
+	.archiactContainer img {
+		float: left;
+	}
+
+	.archiactTimePlace {
+		font-size: 0.8vw;
+		font-weight: 300;
+		float: right;
+		width: 52%;
+		margin-bottom: 2%;
+		text-align: center;
+	}
+
+	.archiactIntro {
+		font-weight: 150;
+		font-size: 1vw;
+		float: right;
+		width: 52%;
+		text-align: justify;
+		word-break: keep-all;
+	}
+
+	.cv {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 40%;
+		height: auto;
+		text-align: center;
+	}
+
+	.cv img {
+		width: 100%;
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+	}
+
+	.clickToDownloadResume {
+		border: 2px solid #fff;
+		width: 30%;
+		border-radius: 20px;
+		margin: 2% auto;
+		font-size: 1.1vw;
+	}
+
+	.clickToDownloadResume:hover {
+		background: #fff;
+		transition: 0.2s;
+	}
+
+	.clickToDownloadResume a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.clickToDownloadResume a:hover {
+		text-decoration: none;
+		color: #000;
+		transition: 0.2s;
+	}
+}
+
+@media (orientation: portrait) {
+	.backButton .material-icons {
+		position: relative;
+		left: 2%;
+		font-size: 5vw;
+		transition: color 0.2;
+	}
+
+	.experience-cv-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.experienceContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 95%;
+		height: auto;
+		color: #fff;
+		font-size: 1vw;
+	}
+
+	.experienceContainer img {
+		width: 45%;
+		height: auto;
+	}
+
+	.eaContainer {
+		padding: 2%;
+		margin-bottom: 3%;
+		background-color: rgba(0, 0, 0, 0.322);
+	}
+
+	.eaContainer img {
+		float: left;
+	}
+
+	.eaTimePlace {
+		font-size: 1.5vw;
+		font-weight: 600;
+		float: right;
+		width: 52%;
+		margin-bottom: 2%;
+		text-align: center;
+	}
+
+	.eaIntro {
+		float: right;
+		font-weight: 400;
+		font-size: 1.7vw;
+		width: 52%;
+		text-align: justify;
+	}
+
+	.mojioContainer {
+		padding: 2%;
+		margin-bottom: 3%;
+		background-color: rgba(83, 83, 83, 0.295);
+	}
+
+	.mojioTimePlace {
+		font-size: 1.5vw;
+		font-weight: 600;
+		float: left;
+		width: 52%;
+		margin-bottom: 2%;
+		text-align: center;
+	}
+
+	.mojioIntro {
+		float: left;
+		font-weight: 400;
+		font-size: 1.7vw;
+		width: 52%;
+		text-align: justify;
+	}
+
+	.mojioContainer img {
+		float: right;
+		width: 40%;
+	}
+
+	.archiactContainer {
+		padding: 2%;
+		margin-bottom: 3%;
+		background-color: rgba(255, 255, 255, 0.123);
+	}
+
+	.archiactContainer img {
+		float: left;
+	}
+
+	.archiactTimePlace {
+		font-size: 1.5vw;
+		font-weight: 600;
+		float: right;
+		width: 52%;
+		margin-bottom: 2%;
+		text-align: center;
+	}
+
+	.archiactIntro {
+		font-weight: 400;
+		font-size: 1.7vw;
+		float: right;
+		width: 52%;
+		text-align: justify;
+		word-break: keep-all;
+	}
+
+	.cv {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 80%;
+		height: auto;
+		text-align: center;
+		margin-top: 4%;
+	}
+
+	.cv img {
+		width: 100%;
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+	}
+
+	.clickToDownloadResume {
+		border: 2px solid #fff;
+		width: 60%;
+		border-radius: 20px;
+		margin: 5% auto;
+		font-size: 4vw;
+	}
+
+	.clickToDownloadResume:hover {
+		background: #fff;
+		transition: 0.2s;
+	}
+
+	.clickToDownloadResume a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.clickToDownloadResume a:hover {
+		text-decoration: none;
+		color: #000;
+		transition: 0.2s;
+	}
+}

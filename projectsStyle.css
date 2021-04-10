@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	cursor: default;
+}
+
+body {
+	position: relative;
+	min-height: 105vh;
+	background: #052942;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.backButton {
+	position: relative;
+	margin: 2% 0% 0.5% 0.5%;
+}
+
+.backButton a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.backButton .material-icons:hover {
+	color: rgb(209, 209, 209);
+	transition: color 0.2s;
+}
+
+.backButton .material-icons {
+	position: relative;
+	left: 2%;
+	font-size: 1.5vw;
+	transition: color 0.2;
+}
+
+.projects-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.projectBlocks {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+}
+
+.projectBlockArrows {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.projectBlockArrow {
+	width: 18%;
+	padding: 0.5% 0%;
+	text-align: center;
+}
+
+.projectBlockArrow .material-icons {
+	font-size: 1vw;
+	transform: rotate(90deg);
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.projectBlock {
+	width: 18%;
+	padding: 5% 0%;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 5%;
+	background-color: #8a8a8a;
+	transition: 0.3s;
+}
+
+.projectBlock:hover {
+	transform: translate(0, -7%);
+	background-color: #d3b363;
+}
+
+.projectTitle {
+	font-size: 1.4vw;
+	font-weight: 800;
+}
+
+.projectTech {
+	font-size: 1vw;
+	font-weight: 300;
+}
+
+.showArrow .material-icons{
+	opacity: 1;
+}
+
+.projectsDetails {
+	width: 90%;
+	color: #fff;
+	margin-top: 2%;
+}
+
+.projectDetails {
+	position: absolute;
+	opacity: 0;
+	transition: ease-in-out 0.3s;
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	color: #fff;
+	z-index: 1;
+}
+
+.showProject {
+	opacity: 1;
+	z-index: 2;
+}
+
+.demoVid {
+	width: 55%;
+}
+
+.demoVid iframe {
+	width: 100%;
+	min-height: 60vh;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.projectIntro {
+	width: 40%;
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.projectIntroTitle {
+	font-size: 1.8vw;
+	font-weight: 1000;
+}
+.projectIntroTech {
+	font-size: 1.1vw;
+	font-weight: 500;
+	padding: 1% 0;
+}
+.projectIntroDate {
+	font-size: 1.1vw;
+}
+
+.projectIntroDetails {
+	padding: 8% 0;
+}
