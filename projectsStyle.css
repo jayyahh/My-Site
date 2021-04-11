@@ -4,12 +4,11 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
-	cursor: default;
 }
 
 body {
 	position: relative;
-	min-height: 105vh;
+	min-height: 100vh;
 	background: #052942;
 }
 
@@ -77,20 +76,19 @@ a {
 
 .projectBlock {
 	width: 18%;
-	padding: 5% 0%;
+	padding: 4% 0%;
 	text-align: center;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25);
-	border-radius: 5%;
+	border-radius: 4%;
 	background-color: #8a8a8a;
 	transition: 0.3s;
 }
 
 .projectBlock:hover {
 	transform: translate(0, -7%);
-	background-color: #d3b363;
 }
 
 .projectTitle {
@@ -105,6 +103,10 @@ a {
 
 .showArrow .material-icons{
 	opacity: 1;
+}
+
+.showColor {
+	background-color: #d3b363;
 }
 
 .projectsDetails {
@@ -135,7 +137,7 @@ a {
 
 .demoVid iframe {
 	width: 100%;
-	min-height: 60vh;
+	height: 30vw;
 	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -148,19 +150,35 @@ a {
 	align-items: center;
 }
 
+.projectIntroDetails {
+	font-size: 1vw;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
 .projectIntroTitle {
 	font-size: 1.8vw;
 	font-weight: 1000;
 }
-.projectIntroTech {
+.projectIntroTech{
 	font-size: 1.1vw;
-	font-weight: 500;
-	padding: 1% 0;
+	font-weight: 300;
+	padding: 0.2% 0;
 }
 .projectIntroDate {
-	font-size: 1.1vw;
+	font-size: 1vw;
+	font-weight: 300;
+	font-style: italic;
 }
 
-.projectIntroDetails {
-	padding: 8% 0;
+.projectIntroGit {
+	font-size: 1vw;
+	text-decoration: underline;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
 }
