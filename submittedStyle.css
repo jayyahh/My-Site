@@ -7,8 +7,8 @@
 }
 
 body {
-	min-height: 100vh;
-	min-width: 100vw;
+	height: 100vh;
+	width: 100vw;
 	background: #052942;
 	display: flex;
 	justify-content: center;
@@ -18,13 +18,14 @@ body {
 
 .thankYou {
 	color: #fff;
-	font-size: 3.5vw;
+	font-size: 10vw;
 	font-weight: 700;
 }
 
 .redirecting {
 	padding-top: 1%;
 	color: #fff;
-	font-size: 2vw;
+	font-size: 5vw;
 	font-weight: 700;
 }
+
