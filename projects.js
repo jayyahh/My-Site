@@ -12,12 +12,14 @@ function showArrow(project) {
 	setTimeout(() => document.querySelector(projectIntro).classList.add("showProject"), 300);
 }
 
+var p0 = document.getElementById("page0");
 var p1 = document.getElementById("page1");
 var p2 = document.getElementById("page2");
 var p3 = document.getElementById("page3");
 var p4 = document.getElementById("page4");
 var p5 = document.getElementById("page5");
 
+var d0 = document.getElementById("d0");
 var d1 = document.getElementById("d1");
 var d2 = document.getElementById("d2");
 var d3 = document.getElementById("d3");
@@ -25,6 +27,26 @@ var d4 = document.getElementById("d4");
 var d5 = document.getElementById("d5");
 
 var startingX;
+
+function p0TouchStart(event) {
+	startingX = event.touches[0].clientX;
+}
+
+function p0TouchEnd(event) {
+	let change = startingX - event.changedTouches[0].clientX;
+	let threshold = screen.width / 3;
+	if (change > threshold) {
+		p0.style.opacity = 0;
+		p1.style.opacity = 1;
+		d0.style.opacity = 0.5;
+		d1.style.opacity = 1;
+	} else if (change < (threshold * -1)) {
+		p0.style.opacity = 0;
+		p5.style.opacity = 1;
+		d0.style.opacity = 0.5;
+		d5.style.opacity = 1;
+	}
+}
 
 function p1TouchStart(event) {
 	startingX = event.touches[0].clientX;
@@ -40,9 +62,9 @@ function p1TouchEnd(event) {
 		d2.style.opacity = 1;
 	} else if (change < (threshold * -1)) {
 		p1.style.opacity = 0;
-		p5.style.opacity = 1;
+		p0.style.opacity = 1;
 		d1.style.opacity = 0.5;
-		d5.style.opacity = 1;
+		d0.style.opacity = 1;
 	}
 }
 
@@ -116,9 +138,9 @@ function p5TouchEnd(event) {
 	let threshold = screen.width / 3;
 	if (change > threshold) {
 		p5.style.opacity = 0;
-		p1.style.opacity = 1;
+		p0.style.opacity = 1;
 		d5.style.opacity = 0.5;
-		d1.style.opacity = 1;
+		d0.style.opacity = 1;
 	} else if (change < (threshold * -1)) {
 		p5.style.opacity = 0;
 		p4.style.opacity = 1;

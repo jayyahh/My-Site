@@ -72,7 +72,7 @@ a {
 	}
 	
 	.projectBlockArrow {
-		width: 18%;
+		width: 15%;
 		padding: 0.5% 0%;
 		text-align: center;
 	}
@@ -85,8 +85,8 @@ a {
 	}
 	
 	.projectBlock {
-		width: 18%;
-		padding: 4% 0%;
+		width: 15%;
+		padding: 3% 0%;
 		text-align: center;
 		color: #fff;
 		display: flex;
@@ -102,7 +102,7 @@ a {
 	}
 	
 	.projectTitle {
-		font-size: 1.4vw;
+		font-size: 1.2vw;
 		font-weight: 800;
 	}
 	
@@ -228,7 +228,7 @@ a {
 		opacity: 0;
 	}
 
-	.project-mobilePage.jsVisualizer{
+	.project-mobilePage.fairprint3d{
 		opacity: 1;
 	}
 

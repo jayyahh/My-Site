@@ -15,9 +15,17 @@
 	</div>
 	<div class="projects-flex">
 		<div class="projectBlocks">
-			<div class="projectBlock jsVisualizer showColor" onclick="showArrow('jsVisualizer')">
+			<div class="projectBlock fairprint3d showColor" onclick="showArrow('fairprint3d')">
+				<text class="projectTitle">Fair Print 3D</text>
+				<text class="projectTech">MERN | GCS | CSS</text>
+			</div>
+			<div class="projectBlock WhatNow" onclick="showArrow('WhatNow')">
+				<text class="projectTitle">WhatNow</text>
+				<text class="projectTech">React Native</text>
+			</div>
+			<div class="projectBlock jsVisualizer" onclick="showArrow('jsVisualizer')">
 				<text class="projectTitle">Program Visualizer</text>
-				<text class="projectTech">ReactJs | JSX | CSS</text>
+				<text class="projectTech">React | JSX | CSS</text>
 			</div>
 			<div class="projectBlock interviewSimulator" onclick="showArrow('interviewSimulator')">
 				<text class="projectTitle">Interview Simulator</text>
@@ -31,13 +39,15 @@
 				<text class="projectTitle">Candy Trap</text>
 				<text class="projectTech">C# | Unity</text>
 			</div>
-			<div class="projectBlock licenseGenerator" onclick="showArrow('licenseGenerator')">
-				<text class="projectTitle">License Generator</text>
-				<text class="projectTech">C# | XAML</text>
-			</div>
 		</div>
 		<div class="projectBlockArrows">
-			<div class="projectBlockArrow jsVisualizer showArrow">
+			<div class="projectBlockArrow fairprint3d showArrow">
+				<span class="material-icons">arrow_forward_ios</span>
+			</div>
+			<div class="projectBlockArrow WhatNow">
+				<span class="material-icons">arrow_forward_ios</span>
+			</div>
+			<div class="projectBlockArrow jsVisualizer">
 				<span class="material-icons">arrow_forward_ios</span>
 			</div>
 			<div class="projectBlockArrow interviewSimulator">
@@ -49,12 +59,83 @@
 			<div class="projectBlockArrow candyTrap">
 				<span class="material-icons">arrow_forward_ios</span>
 			</div>
-			<div class="projectBlockArrow licenseGenerator">
-				<span class="material-icons">arrow_forward_ios</span>
-			</div>
 		</div>
 		<div class="projectsDetails">
-			<div class="projectDetails jsVisualizer showProject">
+			<div class="projectDetails fairprint3d showProject">
+				<div class="demoVid">
+					<iframe src="https://www.youtube.com/embed/rz8t_PplPB8" title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<div class="projectIntro fairprint3d">
+					<text class="projectIntroTitle fairprint3d">
+						Fair Print 3D
+					</text>
+					<text class="projectIntroTech fairprint3d">
+						MongoDB | Express | Node | React | GCS | CSS
+					</text>
+					<text class="projectIntroDate fairprint3d">
+						July 2021 - Ongoing
+					</text>
+					<div class="projectIntroDetails fairprint3d">
+						<text class="projectIntroDetailsWhat">
+							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
+							Fair Print 3D is a MERN stack web application that provides a 3D printing service to its
+							users, shipping included.
+							This project has a responsive React frontend and Express.js and Node.js backend APIs to
+							communicate with the MongoDB and Google Cloud Storage databases.
+							It also includes API authentication using JSON web token to protect private API routes; and
+							it incorporates Stripe's APIs to create a secure checkout session that also records
+							transactions and sends confirmation emails.
+						</text>
+						<text class="projectIntroDetailsSo">
+							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
+							This website is able to provide affordable and high-quality 3D printing services across the
+							globe.
+						</text>
+					</div>
+				</div>
+			</div>
+			<div class="projectDetails WhatNow">
+				<div class="demoVid">
+					<iframe src="https://www.youtube.com/embed/eYDmsp7LKrQ" title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<div class="projectIntro WhatNow">
+					<text class="projectIntroTitle WhatNow">
+						WhatNow
+					</text>
+					<text class="projectIntroTech WhatNow">
+						React Native
+					</text>
+					<text class="projectIntroDate WhatNow">
+						May 2021
+					</text>
+					<div class="projectIntroDetails WhatNow">
+						<text class="projectIntroDetailsWhat">
+							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
+							WhatNow is a React Native application that is available on the iOS app store. It provides an
+							adventurous experience that helps its user's decide what to do or what to eat next based on
+							the user's location. It will ask the user if he/she wants to find an activity to do or a
+							place to eat, then it'll ask for the permission to use the mobile device's location (other
+							wise enter manually), and it will automatically generate your next destination for you. If
+							you don't feel like it, just click 'Next'.
+						</text>
+						<text class="projectIntroDetailsSo">
+							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
+							This app can take away the trouble of boredom, giving its users the excitement that
+							accompanies an unknown adventure.
+						</text>
+						<text class="projectIntroGit WhatNow">
+							<a target="_blank" href="https://github.com/jayyahh/WhatNow">
+								View Source Code on GitHub
+							</a>
+						</text>
+					</div>
+				</div>
+			</div>
+			<div class="projectDetails jsVisualizer">
 				<div class="demoVid">
 					<iframe src="https://www.youtube.com/embed/4KZo4QIO72Y" title="YouTube video player" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -213,46 +294,91 @@
 					</div>
 				</div>
 			</div>
-			<div class="projectDetails licenseGenerator">
-				<div class="demoVid">
-					<iframe src="https://www.youtube.com/embed/H4grs7fjnB4" title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-				<div class="projectIntro licenseGenerator">
-					<text class="projectIntroTitle licenseGenerator">
-						Driver's License Generator
+		</div>
+	</div>
+	<div class="project-mobilePage fairprint3d" id="page0" ontouchstart="p0TouchStart(event)"
+		ontouchend="p0TouchEnd(event)">
+		<div class="projectDetails fairprint3d showProject">
+			<div class="demoVid">
+				<iframe src="https://www.youtube.com/embed/rz8t_PplPB8" title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="projectIntro fairprint3d">
+				<text class="projectIntroTitle fairprint3d">
+					Fair Print 3D
+				</text>
+				<text class="projectIntroTech fairprint3d">
+					MongoDB | Express | Node | React | GCS | CSS
+				</text>
+				<text class="projectIntroDate fairprint3d">
+					July 2021 - Ongoing
+				</text>
+				<div class="projectIntroDetails fairprint3d">
+					<text class="projectIntroDetailsWhat">
+						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
+						Fair Print 3D is a MERN stack web application that provides a 3D printing service to its
+						users, shipping included.
+						This project has a responsive React frontend and Express.js and Node.js backend APIs to
+						communicate with the MongoDB and Google Cloud Storage databases.
+						It also includes API authentication using JSON web token to protect private API routes; and
+						it incorporates Stripe's APIs to create a secure checkout session that also records
+						transactions and sends confirmation emails.
 					</text>
-					<text class="projectIntroTech licenseGenerator">
-						C# | XAML | WPF
+					<text class="projectIntroDetailsSo">
+						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
+						This website is able to provide affordable and high-quality 3D printing services across the
+						globe.
 					</text>
-					<text class="projectIntroDate licenseGenerator">
-						September 2020
-					</text>
-					<div class="projectIntroDetails licenseGenerator">
-						<text class="projectIntroDetailsWhat">
-							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-							Driver's License Generator is a WPF application that takes in the users' inputs, validates
-							them,
-							and produces a driver's license with the information.
-						</text>
-						<text class="projectIntroDetailsSo">
-							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-							Driver's License Generator allows the users to see what they will look like on a driver's
-							license I that designed.
-						</text>
-						<text class="projectIntroGit licenseGenerator">
-							<a target="_blank" href="https://github.com/jayyahh/WPFLicenseGenerator">
-								View Source Code on GitHub
-							</a>
-						</text>
-					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="project-mobilePage jsVisualizer" id="page1" ontouchstart="p1TouchStart(event)"
+
+	<div class="project-mobilePage WhatNow" id="page1" ontouchstart="p1TouchStart(event)"
 		ontouchend="p1TouchEnd(event)">
+		<div class="projectDetails WhatNow">
+			<div class="demoVid">
+				<iframe src="https://www.youtube.com/embed/eYDmsp7LKrQ" title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="projectIntro WhatNow">
+				<text class="projectIntroTitle WhatNow">
+					WhatNow
+				</text>
+				<text class="projectIntroTech WhatNow">
+					React Native
+				</text>
+				<text class="projectIntroDate WhatNow">
+					May 2021
+				</text>
+				<div class="projectIntroDetails WhatNow">
+					<text class="projectIntroDetailsWhat">
+						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
+						WhatNow is a React Native application that is available on the iOS app store. It provides an
+						adventurous experience that helps its user's decide what to do or what to eat next based on
+						the user's location. It will ask the user if he/she wants to find an activity to do or a
+						place to eat, then it'll ask for the permission to use the mobile device's location (other
+						wise enter manually), and it will automatically generate your next destination for you. If
+						you don't feel like it, just click 'Next'.
+					</text>
+					<text class="projectIntroDetailsSo">
+						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
+						This app can take away the trouble of boredom, giving its users the excitement that
+						accompanies an unknown adventure.
+					</text>
+					<text class="projectIntroGit WhatNow">
+						<a target="_blank" href="https://github.com/jayyahh/WhatNow">
+							View Source Code on GitHub
+						</a>
+					</text>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="project-mobilePage jsVisualizer" id="page2" ontouchstart="p2TouchStart(event)"
+		ontouchend="p2TouchEnd(event)">
 		<div class="projectDetails jsVisualizer">
 			<div class="demoVid">
 				<iframe src="https://www.youtube.com/embed/4KZo4QIO72Y" title="YouTube video player" frameborder="0"
@@ -295,8 +421,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="project-mobilePage interviewSimulator" id="page2" ontouchstart="p2TouchStart(event)"
-		ontouchend="p2TouchEnd(event)">
+	<div class="project-mobilePage interviewSimulator" id="page3" ontouchstart="p3TouchStart(event)"
+		ontouchend="p3TouchEnd(event)">
 		<div class="projectDetails interviewSimulator">
 			<div class="demoVid">
 				<iframe src="https://www.youtube.com/embed/Bcl5f8xGnoE" title="YouTube video player" frameborder="0"
@@ -338,8 +464,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="project-mobilePage superRent" id="page3" ontouchstart="p3TouchStart(event)"
-		ontouchend="p3TouchEnd(event)">
+	<div class="project-mobilePage superRent" id="page4" ontouchstart="p4TouchStart(event)"
+		ontouchend="p4TouchEnd(event)">
 		<div class="projectDetails superRent">
 			<div class="demoVid">
 				<iframe src="https://www.youtube.com/embed/Y9az5iNlvLE" title="YouTube video player" frameborder="0"
@@ -381,8 +507,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="project-mobilePage candyTrap" id="page4" ontouchstart="p4TouchStart(event)"
-		ontouchend="p4TouchEnd(event)">
+	<div class="project-mobilePage candyTrap" id="page5" ontouchstart="p5TouchStart(event)"
+		ontouchend="p5TouchEnd(event)">
 		<div class="projectDetails candyTrap">
 			<div class="demoVid">
 				<iframe src="https://www.youtube.com/embed/gVUeg7mDDTM" title="YouTube video player" frameborder="0"
@@ -422,55 +548,18 @@
 			</div>
 		</div>
 	</div>
-	<div class="project-mobilePage licenseGenerator" id="page5" ontouchstart="p5TouchStart(event)"
-		ontouchend="p5TouchEnd(event)">
-		<div class="projectDetails licenseGenerator">
-			<div class="demoVid">
-				<iframe src="https://www.youtube.com/embed/H4grs7fjnB4" title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="projectIntro licenseGenerator">
-				<text class="projectIntroTitle licenseGenerator">
-					Driver's License Generator
-				</text>
-				<text class="projectIntroTech licenseGenerator">
-					C# | XAML | WPF
-				</text>
-				<text class="projectIntroDate licenseGenerator">
-					September 2020
-				</text>
-				<div class="projectIntroDetails licenseGenerator">
-					<text class="projectIntroDetailsWhat">
-						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-						Driver's License Generator is a WPF application that takes in the users' inputs, validates
-						them,
-						and produces a driver's license with the information.
-					</text>
-					<text class="projectIntroDetailsSo">
-						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-						Driver's License Generator allows the users to see what they will look like on a driver's
-						license I that designed.
-					</text>
-					<text class="projectIntroGit licenseGenerator">
-						<a target="_blank" href="https://github.com/jayyahh/WPFLicenseGenerator">
-							View Source Code on GitHub
-						</a>
-					</text>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="pageScrollDots">
-		<div class="dot jsVisualizer" id="d1">
+		<div class="dot fairprint3d" id="d0">
 		</div>
-		<div class="dot interviewSimulator" id="d2">
+		<div class="dot WhatNow" id="d1">
 		</div>
-		<div class="dot superRent" id="d3">
+		<div class="dot jsVisualizer" id="d2">
 		</div>
-		<div class="dot candyTrap" id="d4">
+		<div class="dot interviewSimulator" id="d3">
 		</div>
-		<div class="dot licenseGenerator" id="d5">
+		<div class="dot superRent" id="d4">
+		</div>
+		<div class="dot candyTrap" id="d5">
 		</div>
 	</div>
 	<script src="projects.js"></script>
