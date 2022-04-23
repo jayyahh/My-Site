@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Jerry Chu - Contact</title>
+    <link rel="stylesheet" type="text/css" href="contactStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-	<title>Jerry Chu - Contact</title>
-	<link rel="stylesheet" type="text/css" href="contactStyle.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-
-<body>
-	<div class="backButton">
-		<a href="https://jerrychu.dev">
-			<span class="material-icons">keyboard_return</span>
-		</a>
-	</div>
-	<text class="contactMe">Contact Me</text>
-	<form action="https://formsubmit.co/jerrychu424@gmail.com" method="POST">
-		<input type="hidden" name="_captcha" value="false">
-		<input type="hidden" name="_next" value="https://jerrychu.dev/submitted">
-		<div class="form-flex">
-			<div class="nameEmail">
-				<input type="text" name="Name" class="inputName" placeholder="Full Name" required>
-				<input type="email" name="Email" class="inputEmail" placeholder="Email Address" required>
-			</div>
-			<div class="inputSubject">
-				<input type="text" name="Subject" class="inputSubjectField" placeholder="Subject" required>
-			</div>
-			<div class="inputMessage">
-				<textarea placeholder="Message" class="inputMessageField" name="Message" rows="8" required></textarea>
-			</div>
-			<button type="submit">
-				<text>
-					Send Message
-				</text>
-			</button>
-		</div>
-	</form>
-</body>
-
+  <body>
+    <div class="backButton">
+      <a href="https://jerrychu.dev">
+        <span class="material-icons">keyboard_return</span>
+      </a>
+    </div>
+    <text class="contactMe">Contact Me</text>
+    <form action="https://formsubmit.co/jerrychu424@gmail.com" method="POST">
+      <input
+        type="hidden"
+        name="_next"
+        value="https://jerrychu.dev/submitted"
+      />
+      <div class="form-flex">
+        <div class="nameEmail">
+          <input
+            type="text"
+            name="Name"
+            class="inputName"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="email"
+            name="Email"
+            class="inputEmail"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <div class="inputSubject">
+          <input
+            type="text"
+            name="Subject"
+            class="inputSubjectField"
+            placeholder="Subject"
+            required
+          />
+        </div>
+        <div class="inputMessage">
+          <textarea
+            placeholder="Message"
+            class="inputMessageField"
+            name="Message"
+            rows="8"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">
+          <text> Send Message </text>
+        </button>
+      </div>
+    </form>
+  </body>
 </html>
