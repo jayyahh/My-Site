@@ -1,568 +1,691 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Jerry Chu - Projects</title>
+    <link rel="stylesheet" type="text/css" href="projectsStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-	<title>Jerry Chu - Projects</title>
-	<link rel="stylesheet" type="text/css" href="projectsStyle.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+  <body>
+    <div class="backButton">
+      <a href="https://jerrychu.dev">
+        <span class="material-icons">keyboard_return</span>
+      </a>
+    </div>
+    <div class="projects-flex">
+      <div class="projectBlocks">
+        <div
+          class="projectBlock fairprint3d showColor"
+          onclick="showArrow('fairprint3d')"
+        >
+          <text class="projectTitle">Fair Print 3D</text>
+          <text class="projectTech">MERN | GCS | CSS</text>
+        </div>
+        <div class="projectBlock WhatNow" onclick="showArrow('WhatNow')">
+          <text class="projectTitle">WhatNow</text>
+          <text class="projectTech">React Native</text>
+        </div>
+        <div
+          class="projectBlock jsVisualizer"
+          onclick="showArrow('jsVisualizer')"
+        >
+          <text class="projectTitle">Program Visualizer</text>
+          <text class="projectTech">React | JSX | CSS</text>
+        </div>
+        <div
+          class="projectBlock interviewSimulator"
+          onclick="showArrow('interviewSimulator')"
+        >
+          <text class="projectTitle">Interview Simulator</text>
+          <text class="projectTech">C# | Unity VR</text>
+        </div>
+        <div class="projectBlock superRent" onclick="showArrow('superRent')">
+          <text class="projectTitle">Super Rent</text>
+          <text class="projectTech">Java | SQL | Oracle DB</text>
+        </div>
+        <div class="projectBlock candyTrap" onclick="showArrow('candyTrap')">
+          <text class="projectTitle">Candy Trap</text>
+          <text class="projectTech">C# | Unity</text>
+        </div>
+      </div>
+      <div class="projectBlockArrows">
+        <div class="projectBlockArrow fairprint3d showArrow">
+          <span class="material-icons">arrow_forward_ios</span>
+        </div>
+        <div class="projectBlockArrow WhatNow">
+          <span class="material-icons">arrow_forward_ios</span>
+        </div>
+        <div class="projectBlockArrow jsVisualizer">
+          <span class="material-icons">arrow_forward_ios</span>
+        </div>
+        <div class="projectBlockArrow interviewSimulator">
+          <span class="material-icons">arrow_forward_ios</span>
+        </div>
+        <div class="projectBlockArrow superRent">
+          <span class="material-icons">arrow_forward_ios</span>
+        </div>
+        <div class="projectBlockArrow candyTrap">
+          <span class="material-icons">arrow_forward_ios</span>
+        </div>
+      </div>
+      <div class="projectsDetails">
+        <div class="projectDetails fairprint3d showProject">
+          <div class="demoVid">
+            <iframe
+              src="https://www.youtube.com/embed/rz8t_PplPB8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="projectIntro fairprint3d">
+            <text class="projectIntroTitle fairprint3d"> Fair Print 3D </text>
+            <text class="projectIntroTech fairprint3d">
+              MongoDB | Express | Node | React | GCS | CSS
+            </text>
+            <text class="projectIntroDate fairprint3d">
+              July 2021 - Ongoing
+            </text>
+            <div class="projectIntroDetails fairprint3d">
+              <text class="projectIntroDetailsWhat">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >What?</text
+                >
+                Fair Print 3D is a MERN stack web application that provides a 3D
+                printing service to its users, shipping included. This project
+                has a responsive React frontend and Express.js and Node.js
+                backend APIs to communicate with the MongoDB and Google Cloud
+                Storage databases. It also includes API authentication using
+                JSON web token to protect private API routes; and it
+                incorporates Stripe's APIs to create a secure checkout session
+                that also records transactions and sends confirmation emails.
+              </text>
+              <text class="projectIntroDetailsSo">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >So?</text
+                >
+                This website is able to provide affordable and high-quality 3D
+                printing services across the globe.
+              </text>
+            </div>
+          </div>
+        </div>
+        <div class="projectDetails WhatNow">
+          <div class="demoVid">
+            <iframe
+              src="https://www.youtube.com/embed/eYDmsp7LKrQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="projectIntro WhatNow">
+            <text class="projectIntroTitle WhatNow"> WhatNow </text>
+            <text class="projectIntroTech WhatNow"> React Native </text>
+            <text class="projectIntroDate WhatNow"> May 2021 </text>
+            <div class="projectIntroDetails WhatNow">
+              <text class="projectIntroDetailsWhat">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >What?</text
+                >
+                WhatNow is a React Native application that is available on the
+                iOS app store. It provides an adventurous experience that helps
+                its user's decide what to do or what to eat next based on the
+                user's location. It will ask the user if he/she wants to find an
+                activity to do or a place to eat, then it'll ask for the
+                permission to use the mobile device's location (other wise enter
+                manually), and it will automatically generate your next
+                destination for you. If you don't feel like it, just click
+                'Next'.
+              </text>
+              <text class="projectIntroDetailsSo">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >So?</text
+                >
+                This app can take away the trouble of boredom, giving its users
+                the excitement that accompanies an unknown adventure.
+              </text>
+              <text class="projectIntroGit WhatNow">
+                <a target="_blank" href="https://github.com/jayyahh/WhatNow">
+                  View Source Code on GitHub
+                </a>
+              </text>
+            </div>
+          </div>
+        </div>
+        <div class="projectDetails jsVisualizer">
+          <div class="demoVid">
+            <iframe
+              src="https://www.youtube.com/embed/4KZo4QIO72Y"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="projectIntro jsVisualizer">
+            <text class="projectIntroTitle jsVisualizer">
+              JavaScript Runtime Visualizer
+            </text>
+            <text class="projectIntroTech jsVisualizer">
+              ReactJs | JSX | CSS
+            </text>
+            <text class="projectIntroDate jsVisualizer">
+              November 2020 - December 2020
+            </text>
+            <div class="projectIntroDetails jsVisualizer">
+              <text class="projectIntroDetailsWhat">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >What?</text
+                >
+                The JavaScript Runtime Analysis and Visualization Tool takes in
+                a JavaScript file and runs the code to record its runtime and
+                displays each function as a colored block. The sizes of the
+                colored blocks depend on each function's individual runtime or
+                total lines number, togglable above the graph. Users can also
+                click on any block to see that function's breakdown information
+                which consists of the amounts of different types of statements
+                within it.
+              </text>
+              <text class="projectIntroDetailsSo">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >So?</text
+                >
+                This project can help users to understand their program better
+                by visualizing the breakdown of the analysis.
+              </text>
+              <text class="projectIntroGit jsVisualizer">
+                <a
+                  target="_blank"
+                  href="https://github.com/jayyahh/JavaScript-Runtime-Visualizer"
+                >
+                  View Source Code on GitHub
+                </a>
+              </text>
+            </div>
+          </div>
+        </div>
+        <div class="projectDetails interviewSimulator">
+          <div class="demoVid">
+            <iframe
+              src="https://www.youtube.com/embed/Bcl5f8xGnoE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="projectIntro interviewSimulator">
+            <text class="projectIntroTitle interviewSimulator">
+              VR Interview Simulator
+            </text>
+            <text class="projectIntroTech interviewSimulator">
+              C# | Unity VR
+            </text>
+            <text class="projectIntroDate interviewSimulator">
+              Janaury 2019
+            </text>
+            <div class="projectIntroDetails interviewSimulator">
+              <text class="projectIntroDetailsWhat">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >What?</text
+                >
+                The VR Interview Simulator is a VR experience that simulates a
+                real-life technical interview. The program allows the users to
+                engage in a face-to-face conversation with the interviewer in an
+                office environment. The interviewer is able to ask the user both
+                behavioral and technical questions which the user can practice
+                answering. The user also has the ability to record the whole
+                interview and play it back at the end to analyze his or her
+                process to better improve their weaknesses.
+              </text>
+              <text class="projectIntroDetailsSo">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >So?</text
+                >
+                The VR experience can help software engineers to prepare for
+                technical interviews in a more comprehensive and realistic
+                manner.
+              </text>
+              <text class="projectIntroGit interviewSimulator">
+                <a
+                  target="_blank"
+                  href="https://github.com/jayyahh/Interview-Simulator"
+                >
+                  View Source Code on GitHub
+                </a>
+              </text>
+            </div>
+          </div>
+        </div>
+        <div class="projectDetails superRent">
+          <div class="demoVid">
+            <iframe
+              src="https://www.youtube.com/embed/Y9az5iNlvLE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="projectIntro superRent">
+            <text class="projectIntroTitle superRent">
+              Super Rent - A Car Rental System
+            </text>
+            <text class="projectIntroTech superRent">
+              Java | SQL | Oracle DB
+            </text>
+            <text class="projectIntroDate superRent"> November 2019 </text>
+            <div class="projectIntroDetails superRent">
+              <text class="projectIntroDetailsWhat">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >What?</text
+                >
+                Super Rent behaves like a car rental company's system which
+                allows different types of users to perform various actions. The
+                targeted users may be a store clerk, a renter, or a branch
+                manager. The program lets the users view available vehicles
+                depending on user inputs, make reservations, rent vehicles,
+                return vehicles, generate rental/return reports, and view or
+                modify the database. All actions will query our Oracle database
+                with embedded SQL code and display the returned data to the
+                user.
+              </text>
+              <text class="projectIntroDetailsSo">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >So?</text
+                >
+                Super Rent can help users to to manage their fleet of rental
+                vehicles in an organized and automated fashion.
+              </text>
+              <text class="projectIntroGit superRent">
+                <a target="_blank" href="https://github.com/jayyahh/SuperRent">
+                  View Source Code on GitHub
+                </a>
+              </text>
+            </div>
+          </div>
+        </div>
+        <div class="projectDetails candyTrap">
+          <div class="demoVid">
+            <iframe
+              src="https://www.youtube.com/embed/gVUeg7mDDTM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="projectIntro candyTrap">
+            <text class="projectIntroTitle candyTrap">
+              Candy Trap Mobile Game
+            </text>
+            <text class="projectIntroTech candyTrap"> C# | Unity </text>
+            <text class="projectIntroDate candyTrap"> February 2018 </text>
+            <div class="projectIntroDetails candyTrap">
+              <text class="projectIntroDetailsWhat">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >What?</text
+                >
+                Candy Trap is a mobile game application that tests the players'
+                ability to collect candies in the rotatable head. Every 3
+                candies of the same color collected will result in 3 points. As
+                candies of the same color are collected, the points rewarded
+                grow exponentially. The game keeps the highest score obtained on
+                the device which the application is installed on.
+              </text>
+              <text class="projectIntroDetailsSo">
+                <text style="font-weight: bold; text-decoration: underline"
+                  >So?</text
+                >
+                Candy Trap allows the players to have a little fun, listen to
+                relaxing background music, and pass time.
+              </text>
+              <text class="projectIntroGit candyTrap">
+                <a target="_blank" href="https://github.com/jayyahh/Candy-Trap">
+                  View Source Code on GitHub
+                </a>
+              </text>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="project-mobilePage fairprint3d"
+      id="page0"
+      ontouchstart="p0TouchStart(event)"
+      ontouchend="p0TouchEnd(event)"
+    >
+      <div class="projectDetails fairprint3d showProject">
+        <div class="demoVid">
+          <iframe
+            src="https://www.youtube.com/embed/rz8t_PplPB8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="projectIntro fairprint3d">
+          <text class="projectIntroTitle fairprint3d"> Fair Print 3D </text>
+          <text class="projectIntroTech fairprint3d">
+            MongoDB | Express | Node | React | GCS | CSS
+          </text>
+          <text class="projectIntroDate fairprint3d">
+            July 2021 - Ongoing
+          </text>
+          <div class="projectIntroDetails fairprint3d">
+            <text class="projectIntroDetailsWhat">
+              <text style="font-weight: bold; text-decoration: underline"
+                >What?</text
+              >
+              Fair Print 3D is a MERN stack web application that provides a 3D
+              printing service to its users, shipping included. This project has
+              a responsive React frontend and Express.js and Node.js backend
+              APIs to communicate with the MongoDB and Google Cloud Storage
+              databases. It also includes API authentication using JSON web
+              token to protect private API routes; and it incorporates Stripe's
+              APIs to create a secure checkout session that also records
+              transactions and sends confirmation emails.
+            </text>
+            <text class="projectIntroDetailsSo">
+              <text style="font-weight: bold; text-decoration: underline"
+                >So?</text
+              >
+              This website is able to provide affordable and high-quality 3D
+              printing services across the globe.
+            </text>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<body>
-	<div class="backButton">
-		<a href="https://jerrychu.dev">
-			<span class="material-icons">keyboard_return</span>
-		</a>
-	</div>
-	<div class="projects-flex">
-		<div class="projectBlocks">
-			<div class="projectBlock fairprint3d showColor" onclick="showArrow('fairprint3d')">
-				<text class="projectTitle">Fair Print 3D</text>
-				<text class="projectTech">MERN | GCS | CSS</text>
-			</div>
-			<div class="projectBlock WhatNow" onclick="showArrow('WhatNow')">
-				<text class="projectTitle">WhatNow</text>
-				<text class="projectTech">React Native</text>
-			</div>
-			<div class="projectBlock jsVisualizer" onclick="showArrow('jsVisualizer')">
-				<text class="projectTitle">Program Visualizer</text>
-				<text class="projectTech">React | JSX | CSS</text>
-			</div>
-			<div class="projectBlock interviewSimulator" onclick="showArrow('interviewSimulator')">
-				<text class="projectTitle">Interview Simulator</text>
-				<text class="projectTech">C# | Unity VR</text>
-			</div>
-			<div class="projectBlock superRent" onclick="showArrow('superRent')">
-				<text class="projectTitle">Super Rent</text>
-				<text class="projectTech">Java | SQL | Oracle DB</text>
-			</div>
-			<div class="projectBlock candyTrap" onclick="showArrow('candyTrap')">
-				<text class="projectTitle">Candy Trap</text>
-				<text class="projectTech">C# | Unity</text>
-			</div>
-		</div>
-		<div class="projectBlockArrows">
-			<div class="projectBlockArrow fairprint3d showArrow">
-				<span class="material-icons">arrow_forward_ios</span>
-			</div>
-			<div class="projectBlockArrow WhatNow">
-				<span class="material-icons">arrow_forward_ios</span>
-			</div>
-			<div class="projectBlockArrow jsVisualizer">
-				<span class="material-icons">arrow_forward_ios</span>
-			</div>
-			<div class="projectBlockArrow interviewSimulator">
-				<span class="material-icons">arrow_forward_ios</span>
-			</div>
-			<div class="projectBlockArrow superRent">
-				<span class="material-icons">arrow_forward_ios</span>
-			</div>
-			<div class="projectBlockArrow candyTrap">
-				<span class="material-icons">arrow_forward_ios</span>
-			</div>
-		</div>
-		<div class="projectsDetails">
-			<div class="projectDetails fairprint3d showProject">
-				<div class="demoVid">
-					<iframe src="https://www.youtube.com/embed/rz8t_PplPB8" title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-				<div class="projectIntro fairprint3d">
-					<text class="projectIntroTitle fairprint3d">
-						Fair Print 3D
-					</text>
-					<text class="projectIntroTech fairprint3d">
-						MongoDB | Express | Node | React | GCS | CSS
-					</text>
-					<text class="projectIntroDate fairprint3d">
-						July 2021 - Ongoing
-					</text>
-					<div class="projectIntroDetails fairprint3d">
-						<text class="projectIntroDetailsWhat">
-							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-							Fair Print 3D is a MERN stack web application that provides a 3D printing service to its
-							users, shipping included.
-							This project has a responsive React frontend and Express.js and Node.js backend APIs to
-							communicate with the MongoDB and Google Cloud Storage databases.
-							It also includes API authentication using JSON web token to protect private API routes; and
-							it incorporates Stripe's APIs to create a secure checkout session that also records
-							transactions and sends confirmation emails.
-						</text>
-						<text class="projectIntroDetailsSo">
-							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-							This website is able to provide affordable and high-quality 3D printing services across the
-							globe.
-						</text>
-					</div>
-				</div>
-			</div>
-			<div class="projectDetails WhatNow">
-				<div class="demoVid">
-					<iframe src="https://www.youtube.com/embed/eYDmsp7LKrQ" title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-				<div class="projectIntro WhatNow">
-					<text class="projectIntroTitle WhatNow">
-						WhatNow
-					</text>
-					<text class="projectIntroTech WhatNow">
-						React Native
-					</text>
-					<text class="projectIntroDate WhatNow">
-						May 2021
-					</text>
-					<div class="projectIntroDetails WhatNow">
-						<text class="projectIntroDetailsWhat">
-							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-							WhatNow is a React Native application that is available on the iOS app store. It provides an
-							adventurous experience that helps its user's decide what to do or what to eat next based on
-							the user's location. It will ask the user if he/she wants to find an activity to do or a
-							place to eat, then it'll ask for the permission to use the mobile device's location (other
-							wise enter manually), and it will automatically generate your next destination for you. If
-							you don't feel like it, just click 'Next'.
-						</text>
-						<text class="projectIntroDetailsSo">
-							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-							This app can take away the trouble of boredom, giving its users the excitement that
-							accompanies an unknown adventure.
-						</text>
-						<text class="projectIntroGit WhatNow">
-							<a target="_blank" href="https://github.com/jayyahh/WhatNow">
-								View Source Code on GitHub
-							</a>
-						</text>
-					</div>
-				</div>
-			</div>
-			<div class="projectDetails jsVisualizer">
-				<div class="demoVid">
-					<iframe src="https://www.youtube.com/embed/4KZo4QIO72Y" title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-				<div class="projectIntro jsVisualizer">
-					<text class="projectIntroTitle jsVisualizer">
-						JavaScript Runtime Visualizer
-					</text>
-					<text class="projectIntroTech jsVisualizer">
-						ReactJs | JSX | CSS
-					</text>
-					<text class="projectIntroDate jsVisualizer">
-						November 2020 - December 2020
-					</text>
-					<div class="projectIntroDetails jsVisualizer">
-						<text class="projectIntroDetailsWhat">
-							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-							The JavaScript Runtime Analysis and Visualization Tool takes in
-							a JavaScript file and runs the code
-							to record its runtime and displays each function as a colored block. The sizes of the
-							colored blocks depend on each function's individual runtime or total lines number,
-							togglable above the graph. Users can also click on any block to see that function's
-							breakdown information which consists of the amounts of different types of statements within
-							it.
-						</text>
-						<text class="projectIntroDetailsSo">
-							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-							This project can help users to understand their program better by visualizing the breakdown
-							of
-							the analysis.
-						</text>
-						<text class="projectIntroGit jsVisualizer">
-							<a target="_blank" href="https://github.com/jayyahh/JavaScript-Runtime-Visualizer">
-								View Source Code on GitHub
-							</a>
-						</text>
-					</div>
-				</div>
-			</div>
-			<div class="projectDetails interviewSimulator">
-				<div class="demoVid">
-					<iframe src="https://www.youtube.com/embed/Bcl5f8xGnoE" title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-				<div class="projectIntro interviewSimulator">
-					<text class="projectIntroTitle interviewSimulator">
-						VR Interview Simulator
-					</text>
-					<text class="projectIntroTech interviewSimulator">
-						C# | Unity VR
-					</text>
-					<text class="projectIntroDate interviewSimulator">
-						Janaury 2019
-					</text>
-					<div class="projectIntroDetails interviewSimulator">
-						<text class="projectIntroDetailsWhat">
-							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-							The VR Interview Simulator is a VR experience that simulates a real-life technical
-							interview.
-							The program allows the users to engage in a face-to-face conversation
-							with the interviewer in an office environment. The interviewer is able to ask the user both
-							behavioral and technical questions which the user can practice answering.
-							The user also has the ability to record the whole interview and play it back at the end to
-							analyze his or her process to better improve their weaknesses.
-						</text>
-						<text class="projectIntroDetailsSo">
-							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-							The VR experience can help software engineers to prepare for technical interviews in a more
-							comprehensive and realistic manner.
-						</text>
-						<text class="projectIntroGit interviewSimulator">
-							<a target="_blank" href="https://github.com/jayyahh/Interview-Simulator">
-								View Source Code on GitHub
-							</a>
-						</text>
-					</div>
-				</div>
-			</div>
-			<div class="projectDetails superRent">
-				<div class="demoVid">
-					<iframe src="https://www.youtube.com/embed/Y9az5iNlvLE" title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-				<div class="projectIntro superRent">
-					<text class="projectIntroTitle superRent">
-						Super Rent - A Car Rental System
-					</text>
-					<text class="projectIntroTech superRent">
-						Java | SQL | Oracle DB
-					</text>
-					<text class="projectIntroDate superRent">
-						November 2019
-					</text>
-					<div class="projectIntroDetails superRent">
-						<text class="projectIntroDetailsWhat">
-							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-							Super Rent behaves like a car rental company's system which allows different types of users
-							to perform various actions.
-							The targeted users may be a store clerk, a renter, or a branch manager.
-							The program lets the users view available vehicles depending on user inputs, make
-							reservations, rent vehicles, return vehicles, generate rental/return reports, and view or
-							modify the database. All actions will query our Oracle database with embedded SQL
-							code and display the returned data to the user.
-						</text>
-						<text class="projectIntroDetailsSo">
-							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-							Super Rent can help users to to manage their
-							fleet of rental vehicles in an organized and automated fashion.
-						</text>
-						<text class="projectIntroGit superRent">
-							<a target="_blank" href="https://github.com/jayyahh/SuperRent">
-								View Source Code on GitHub
-							</a>
-						</text>
-					</div>
-				</div>
-			</div>
-			<div class="projectDetails candyTrap">
-				<div class="demoVid">
-					<iframe src="https://www.youtube.com/embed/gVUeg7mDDTM" title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-				<div class="projectIntro candyTrap">
-					<text class="projectIntroTitle candyTrap">
-						Candy Trap Mobile Game
-					</text>
-					<text class="projectIntroTech candyTrap">
-						C# | Unity
-					</text>
-					<text class="projectIntroDate candyTrap">
-						February 2018
-					</text>
-					<div class="projectIntroDetails candyTrap">
-						<text class="projectIntroDetailsWhat">
-							<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-							Candy Trap is a mobile game application that tests the players' ability to collect candies
-							in
-							the rotatable head. Every 3 candies of the same color collected will result in 3 points.
-							As candies of the same color are collected, the points rewarded grow exponentially. The game
-							keeps the highest score obtained on the device which the application is installed on.
-						</text>
-						<text class="projectIntroDetailsSo">
-							<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-							Candy Trap allows the players to have a little fun, listen to relaxing background music, and
-							pass time.
-						</text>
-						<text class="projectIntroGit candyTrap">
-							<a target="_blank" href="https://github.com/jayyahh/Candy-Trap">
-								View Source Code on GitHub
-							</a>
-						</text>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="project-mobilePage fairprint3d" id="page0" ontouchstart="p0TouchStart(event)"
-		ontouchend="p0TouchEnd(event)">
-		<div class="projectDetails fairprint3d showProject">
-			<div class="demoVid">
-				<iframe src="https://www.youtube.com/embed/rz8t_PplPB8" title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="projectIntro fairprint3d">
-				<text class="projectIntroTitle fairprint3d">
-					Fair Print 3D
-				</text>
-				<text class="projectIntroTech fairprint3d">
-					MongoDB | Express | Node | React | GCS | CSS
-				</text>
-				<text class="projectIntroDate fairprint3d">
-					July 2021 - Ongoing
-				</text>
-				<div class="projectIntroDetails fairprint3d">
-					<text class="projectIntroDetailsWhat">
-						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-						Fair Print 3D is a MERN stack web application that provides a 3D printing service to its
-						users, shipping included.
-						This project has a responsive React frontend and Express.js and Node.js backend APIs to
-						communicate with the MongoDB and Google Cloud Storage databases.
-						It also includes API authentication using JSON web token to protect private API routes; and
-						it incorporates Stripe's APIs to create a secure checkout session that also records
-						transactions and sends confirmation emails.
-					</text>
-					<text class="projectIntroDetailsSo">
-						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-						This website is able to provide affordable and high-quality 3D printing services across the
-						globe.
-					</text>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="project-mobilePage WhatNow" id="page1" ontouchstart="p1TouchStart(event)"
-		ontouchend="p1TouchEnd(event)">
-		<div class="projectDetails WhatNow">
-			<div class="demoVid">
-				<iframe src="https://www.youtube.com/embed/eYDmsp7LKrQ" title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="projectIntro WhatNow">
-				<text class="projectIntroTitle WhatNow">
-					WhatNow
-				</text>
-				<text class="projectIntroTech WhatNow">
-					React Native
-				</text>
-				<text class="projectIntroDate WhatNow">
-					May 2021
-				</text>
-				<div class="projectIntroDetails WhatNow">
-					<text class="projectIntroDetailsWhat">
-						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-						WhatNow is a React Native application that is available on the iOS app store. It provides an
-						adventurous experience that helps its user's decide what to do or what to eat next based on
-						the user's location. It will ask the user if he/she wants to find an activity to do or a
-						place to eat, then it'll ask for the permission to use the mobile device's location (other
-						wise enter manually), and it will automatically generate your next destination for you. If
-						you don't feel like it, just click 'Next'.
-					</text>
-					<text class="projectIntroDetailsSo">
-						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-						This app can take away the trouble of boredom, giving its users the excitement that
-						accompanies an unknown adventure.
-					</text>
-					<text class="projectIntroGit WhatNow">
-						<a target="_blank" href="https://github.com/jayyahh/WhatNow">
-							View Source Code on GitHub
-						</a>
-					</text>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="project-mobilePage jsVisualizer" id="page2" ontouchstart="p2TouchStart(event)"
-		ontouchend="p2TouchEnd(event)">
-		<div class="projectDetails jsVisualizer">
-			<div class="demoVid">
-				<iframe src="https://www.youtube.com/embed/4KZo4QIO72Y" title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="projectIntro jsVisualizer">
-				<text class="projectIntroTitle jsVisualizer">
-					JavaScript Runtime Visualizer
-				</text>
-				<text class="projectIntroTech jsVisualizer">
-					ReactJs | JSX | CSS
-				</text>
-				<text class="projectIntroDate jsVisualizer">
-					November 2020 - December 2020
-				</text>
-				<div class="projectIntroDetails jsVisualizer">
-					<text class="projectIntroDetailsWhat">
-						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-						The JavaScript Runtime Analysis and Visualization Tool takes in
-						a JavaScript file and runs the code
-						to record its runtime and displays each function as a colored block. The sizes of the
-						colored blocks depend on each function's individual runtime or total lines number,
-						togglable above the graph. Users can also click on any block to see that function's
-						breakdown information which consists of the amounts of different types of statements within
-						it.
-					</text>
-					<text class="projectIntroDetailsSo">
-						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-						This project can help users to understand their program better by visualizing the breakdown
-						of
-						the analysis.
-					</text>
-					<text class="projectIntroGit jsVisualizer">
-						<a target="_blank" href="https://github.com/jayyahh/JavaScript-Runtime-Visualizer">
-							View Source Code on GitHub
-						</a>
-					</text>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="project-mobilePage interviewSimulator" id="page3" ontouchstart="p3TouchStart(event)"
-		ontouchend="p3TouchEnd(event)">
-		<div class="projectDetails interviewSimulator">
-			<div class="demoVid">
-				<iframe src="https://www.youtube.com/embed/Bcl5f8xGnoE" title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="projectIntro interviewSimulator">
-				<text class="projectIntroTitle interviewSimulator">
-					VR Interview Simulator
-				</text>
-				<text class="projectIntroTech interviewSimulator">
-					C# | Unity VR
-				</text>
-				<text class="projectIntroDate interviewSimulator">
-					Janaury 2019
-				</text>
-				<div class="projectIntroDetails interviewSimulator">
-					<text class="projectIntroDetailsWhat">
-						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-						The VR Interview Simulator is a VR experience that simulates a real-life technical
-						interview.
-						The program allows the users to engage in a face-to-face conversation
-						with the interviewer in an office environment. The interviewer is able to ask the user both
-						behavioral and technical questions which the user can practice answering.
-						The user also has the ability to record the whole interview and play it back at the end to
-						analyze his or her process to better improve their weaknesses.
-					</text>
-					<text class="projectIntroDetailsSo">
-						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-						The VR experience can help software engineers to prepare for technical interviews in a more
-						comprehensive and realistic manner.
-					</text>
-					<text class="projectIntroGit interviewSimulator">
-						<a target="_blank" href="https://github.com/jayyahh/Interview-Simulator">
-							View Source Code on GitHub
-						</a>
-					</text>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="project-mobilePage superRent" id="page4" ontouchstart="p4TouchStart(event)"
-		ontouchend="p4TouchEnd(event)">
-		<div class="projectDetails superRent">
-			<div class="demoVid">
-				<iframe src="https://www.youtube.com/embed/Y9az5iNlvLE" title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="projectIntro superRent">
-				<text class="projectIntroTitle superRent">
-					Super Rent - A Car Rental System
-				</text>
-				<text class="projectIntroTech superRent">
-					Java | SQL | Oracle DB
-				</text>
-				<text class="projectIntroDate superRent">
-					November 2019
-				</text>
-				<div class="projectIntroDetails superRent">
-					<text class="projectIntroDetailsWhat">
-						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-						Super Rent behaves like a car rental company's system which allows different types of users
-						to perform various actions.
-						The targeted users may be a store clerk, a renter, or a branch manager.
-						The program lets the users view available vehicles depending on user inputs, make
-						reservations, rent vehicles, return vehicles, generate rental/return reports, and view or
-						modify the database. All actions will query our Oracle database with embedded SQL
-						code and display the returned data to the user.
-					</text>
-					<text class="projectIntroDetailsSo">
-						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-						Super Rent can help users to to manage their
-						fleet of rental vehicles in an organized and automated fashion.
-					</text>
-					<text class="projectIntroGit superRent">
-						<a target="_blank" href="https://github.com/jayyahh/SuperRent">
-							View Source Code on GitHub
-						</a>
-					</text>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="project-mobilePage candyTrap" id="page5" ontouchstart="p5TouchStart(event)"
-		ontouchend="p5TouchEnd(event)">
-		<div class="projectDetails candyTrap">
-			<div class="demoVid">
-				<iframe src="https://www.youtube.com/embed/gVUeg7mDDTM" title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="projectIntro candyTrap">
-				<text class="projectIntroTitle candyTrap">
-					Candy Trap Mobile Game
-				</text>
-				<text class="projectIntroTech candyTrap">
-					C# | Unity
-				</text>
-				<text class="projectIntroDate candyTrap">
-					February 2018
-				</text>
-				<div class="projectIntroDetails candyTrap">
-					<text class="projectIntroDetailsWhat">
-						<text style='font-weight: bold; text-decoration: underline;'>What?</text>
-						Candy Trap is a mobile game application that tests the players' ability to collect candies
-						in
-						the rotatable head. Every 3 candies of the same color collected will result in 3 points.
-						As candies of the same color are collected, the points rewarded grow exponentially. The game
-						keeps the highest score obtained on the device which the application is installed on.
-					</text>
-					<text class="projectIntroDetailsSo">
-						<text style='font-weight: bold; text-decoration: underline;'>So?</text>
-						Candy Trap allows the players to have a little fun, listen to relaxing background music, and
-						pass time.
-					</text>
-					<text class="projectIntroGit candyTrap">
-						<a target="_blank" href="https://github.com/jayyahh/Candy-Trap">
-							View Source Code on GitHub
-						</a>
-					</text>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="pageScrollDots">
-		<div class="dot fairprint3d" id="d0">
-		</div>
-		<div class="dot WhatNow" id="d1">
-		</div>
-		<div class="dot jsVisualizer" id="d2">
-		</div>
-		<div class="dot interviewSimulator" id="d3">
-		</div>
-		<div class="dot superRent" id="d4">
-		</div>
-		<div class="dot candyTrap" id="d5">
-		</div>
-	</div>
-	<script src="projects.js"></script>
-</body>
-
+    <div
+      class="project-mobilePage WhatNow"
+      id="page1"
+      ontouchstart="p1TouchStart(event)"
+      ontouchend="p1TouchEnd(event)"
+    >
+      <div class="projectDetails WhatNow">
+        <div class="demoVid">
+          <iframe
+            src="https://www.youtube.com/embed/eYDmsp7LKrQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="projectIntro WhatNow">
+          <text class="projectIntroTitle WhatNow"> WhatNow </text>
+          <text class="projectIntroTech WhatNow"> React Native </text>
+          <text class="projectIntroDate WhatNow"> May 2021 </text>
+          <div class="projectIntroDetails WhatNow">
+            <text class="projectIntroDetailsWhat">
+              <text style="font-weight: bold; text-decoration: underline"
+                >What?</text
+              >
+              WhatNow is a React Native application that is available on the iOS
+              app store. It provides an adventurous experience that helps its
+              user's decide what to do or what to eat next based on the user's
+              location. It will ask the user if he/she wants to find an activity
+              to do or a place to eat, then it'll ask for the permission to use
+              the mobile device's location (other wise enter manually), and it
+              will automatically generate your next destination for you. If you
+              don't feel like it, just click 'Next'.
+            </text>
+            <text class="projectIntroDetailsSo">
+              <text style="font-weight: bold; text-decoration: underline"
+                >So?</text
+              >
+              This app can take away the trouble of boredom, giving its users
+              the excitement that accompanies an unknown adventure.
+            </text>
+            <text class="projectIntroGit WhatNow">
+              <a target="_blank" href="https://github.com/jayyahh/WhatNow">
+                View Source Code on GitHub
+              </a>
+            </text>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="project-mobilePage jsVisualizer"
+      id="page2"
+      ontouchstart="p2TouchStart(event)"
+      ontouchend="p2TouchEnd(event)"
+    >
+      <div class="projectDetails jsVisualizer">
+        <div class="demoVid">
+          <iframe
+            src="https://www.youtube.com/embed/4KZo4QIO72Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="projectIntro jsVisualizer">
+          <text class="projectIntroTitle jsVisualizer">
+            JavaScript Runtime Visualizer
+          </text>
+          <text class="projectIntroTech jsVisualizer">
+            ReactJs | JSX | CSS
+          </text>
+          <text class="projectIntroDate jsVisualizer">
+            November 2020 - December 2020
+          </text>
+          <div class="projectIntroDetails jsVisualizer">
+            <text class="projectIntroDetailsWhat">
+              <text style="font-weight: bold; text-decoration: underline"
+                >What?</text
+              >
+              The JavaScript Runtime Analysis and Visualization Tool takes in a
+              JavaScript file and runs the code to record its runtime and
+              displays each function as a colored block. The sizes of the
+              colored blocks depend on each function's individual runtime or
+              total lines number, toggleable above the graph. Users can also
+              click on any block to see that function's breakdown information
+              which consists of the amounts of different types of statements
+              within it.
+            </text>
+            <text class="projectIntroDetailsSo">
+              <text style="font-weight: bold; text-decoration: underline"
+                >So?</text
+              >
+              This project can help users to understand their program better by
+              visualizing the breakdown of the analysis.
+            </text>
+            <text class="projectIntroGit jsVisualizer">
+              <a
+                target="_blank"
+                href="https://github.com/jayyahh/JavaScript-Runtime-Visualizer"
+              >
+                View Source Code on GitHub
+              </a>
+            </text>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="project-mobilePage interviewSimulator"
+      id="page3"
+      ontouchstart="p3TouchStart(event)"
+      ontouchend="p3TouchEnd(event)"
+    >
+      <div class="projectDetails interviewSimulator">
+        <div class="demoVid">
+          <iframe
+            src="https://www.youtube.com/embed/Bcl5f8xGnoE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="projectIntro interviewSimulator">
+          <text class="projectIntroTitle interviewSimulator">
+            VR Interview Simulator
+          </text>
+          <text class="projectIntroTech interviewSimulator">
+            C# | Unity VR
+          </text>
+          <text class="projectIntroDate interviewSimulator">
+            Janaury 2019
+          </text>
+          <div class="projectIntroDetails interviewSimulator">
+            <text class="projectIntroDetailsWhat">
+              <text style="font-weight: bold; text-decoration: underline"
+                >What?</text
+              >
+              The VR Interview Simulator is a VR experience that simulates a
+              real-life technical interview. The program allows the users to
+              engage in a face-to-face conversation with the interviewer in an
+              office environment. The interviewer is able to ask the user both
+              behavioral and technical questions which the user can practice
+              answering. The user also has the ability to record the whole
+              interview and play it back at the end to analyze his or her
+              process to better improve their weaknesses.
+            </text>
+            <text class="projectIntroDetailsSo">
+              <text style="font-weight: bold; text-decoration: underline"
+                >So?</text
+              >
+              The VR experience can help software engineers to prepare for
+              technical interviews in a more comprehensive and realistic manner.
+            </text>
+            <text class="projectIntroGit interviewSimulator">
+              <a
+                target="_blank"
+                href="https://github.com/jayyahh/Interview-Simulator"
+              >
+                View Source Code on GitHub
+              </a>
+            </text>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="project-mobilePage superRent"
+      id="page4"
+      ontouchstart="p4TouchStart(event)"
+      ontouchend="p4TouchEnd(event)"
+    >
+      <div class="projectDetails superRent">
+        <div class="demoVid">
+          <iframe
+            src="https://www.youtube.com/embed/Y9az5iNlvLE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="projectIntro superRent">
+          <text class="projectIntroTitle superRent">
+            Super Rent - A Car Rental System
+          </text>
+          <text class="projectIntroTech superRent">
+            Java | SQL | Oracle DB
+          </text>
+          <text class="projectIntroDate superRent"> November 2019 </text>
+          <div class="projectIntroDetails superRent">
+            <text class="projectIntroDetailsWhat">
+              <text style="font-weight: bold; text-decoration: underline"
+                >What?</text
+              >
+              Super Rent behaves like a car rental company's system which allows
+              different types of users to perform various actions. The targeted
+              users may be a store clerk, a renter, or a branch manager. The
+              program lets the users view available vehicles depending on user
+              inputs, make reservations, rent vehicles, return vehicles,
+              generate rental/return reports, and view or modify the database.
+              All actions will query our Oracle database with embedded SQL code
+              and display the returned data to the user.
+            </text>
+            <text class="projectIntroDetailsSo">
+              <text style="font-weight: bold; text-decoration: underline"
+                >So?</text
+              >
+              Super Rent can help users to to manage their fleet of rental
+              vehicles in an organized and automated fashion.
+            </text>
+            <text class="projectIntroGit superRent">
+              <a target="_blank" href="https://github.com/jayyahh/SuperRent">
+                View Source Code on GitHub
+              </a>
+            </text>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="project-mobilePage candyTrap"
+      id="page5"
+      ontouchstart="p5TouchStart(event)"
+      ontouchend="p5TouchEnd(event)"
+    >
+      <div class="projectDetails candyTrap">
+        <div class="demoVid">
+          <iframe
+            src="https://www.youtube.com/embed/gVUeg7mDDTM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="projectIntro candyTrap">
+          <text class="projectIntroTitle candyTrap">
+            Candy Trap Mobile Game
+          </text>
+          <text class="projectIntroTech candyTrap"> C# | Unity </text>
+          <text class="projectIntroDate candyTrap"> February 2018 </text>
+          <div class="projectIntroDetails candyTrap">
+            <text class="projectIntroDetailsWhat">
+              <text style="font-weight: bold; text-decoration: underline"
+                >What?</text
+              >
+              Candy Trap is a mobile game application that tests the players'
+              ability to collect candies in the rotatable head. Every 3 candies
+              of the same color collected will result in 3 points. As candies of
+              the same color are collected, the points rewarded grow
+              exponentially. The game keeps the highest score obtained on the
+              device which the application is installed on.
+            </text>
+            <text class="projectIntroDetailsSo">
+              <text style="font-weight: bold; text-decoration: underline"
+                >So?</text
+              >
+              Candy Trap allows the players to have a little fun, listen to
+              relaxing background music, and pass time.
+            </text>
+            <text class="projectIntroGit candyTrap">
+              <a target="_blank" href="https://github.com/jayyahh/Candy-Trap">
+                View Source Code on GitHub
+              </a>
+            </text>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pageScrollDots">
+      <div class="dot fairprint3d" id="d0"></div>
+      <div class="dot WhatNow" id="d1"></div>
+      <div class="dot jsVisualizer" id="d2"></div>
+      <div class="dot interviewSimulator" id="d3"></div>
+      <div class="dot superRent" id="d4"></div>
+      <div class="dot candyTrap" id="d5"></div>
+    </div>
+    <script src="projects.js"></script>
+  </body>
 </html>
