@@ -212,6 +212,33 @@ body {
     height: auto;
   }
 
+  .lpContainer {
+    padding: 2%;
+    margin-bottom: 3%;
+    background-color: rgba(0, 0, 0, 0.322);
+  }
+
+  .lpContainer img {
+    float: left;
+  }
+
+  .lpTimePlace {
+    font-size: 1.5vw;
+    font-weight: 600;
+    float: right;
+    width: 52%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .lpIntro {
+    float: right;
+    font-weight: 400;
+    font-size: 1.7vw;
+    width: 52%;
+    text-align: justify;
+  }
+
   .eaContainer {
     padding: 2%;
     margin-bottom: 3%;
