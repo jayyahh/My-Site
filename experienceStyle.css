@@ -56,17 +56,20 @@ body {
     height: auto;
   }
 
-  .eaContainer {
+  .eaContainer,
+  .ipxContainer {
     padding: 2%;
     margin-bottom: 3%;
     background-color: rgba(0, 0, 0, 0.322);
   }
 
-  .eaContainer img {
+  .eaContainer img,
+  .ipxContainer img {
     float: left;
   }
 
-  .eaTimePlace {
+  .eaTimePlace,
+  .ipxTimePlace {
     font-size: 0.8vw;
     font-weight: 300;
     float: right;
@@ -75,7 +78,8 @@ body {
     text-align: center;
   }
 
-  .eaIntro {
+  .eaIntro,
+  .ipxIntro {
     float: right;
     font-weight: 150;
     font-size: 1vw;
