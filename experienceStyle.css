@@ -216,6 +216,33 @@ body {
     height: auto;
   }
 
+  .ipxContainer {
+    padding: 2%;
+    margin-bottom: 3%;
+    background-color: rgba(0, 0, 0, 0.322);
+  }
+
+  .ipxContainer img {
+    float: left;
+  }
+
+  .ipxTimePlace {
+    font-size: 1.5vw;
+    font-weight: 600;
+    float: right;
+    width: 52%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .ipxIntro {
+    float: right;
+    font-weight: 400;
+    font-size: 1.7vw;
+    width: 52%;
+    text-align: justify;
+  }
+
   .lpContainer {
     padding: 2%;
     margin-bottom: 3%;
